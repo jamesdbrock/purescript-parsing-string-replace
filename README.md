@@ -46,6 +46,9 @@ maintainability are more important than speed.
   [regular expressions](https://en.wikipedia.org/wiki/Regular_expression),
   which are notoriously
   [difficult to read](https://en.wikipedia.org/wiki/Write-only_language).
+  With monadic parsers we can perform textual pattern-matching in plain
+  PureScript rather than using a special regex domain-specific
+  programming language.
 
 * Regular expressions can do “group capture” on sections of the matched
   pattern, but they can only return stringy lists of the capture groups. Parsers
